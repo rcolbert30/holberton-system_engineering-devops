@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 
-name='Holberton Holberton Holberton Holberton Holberton Holberton Holberton Holberton Holberton Holberton'
-
-for names in $name
-do
-	echo "$names"
+for _ in {1..10} 
+	do echo "Holberton School"
 done
