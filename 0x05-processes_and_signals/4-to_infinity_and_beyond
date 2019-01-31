@@ -3,6 +3,6 @@
 count=1
 while [ $count ]
 do
-	echo "To Infinity and beyond"
+	echo "To infinity and beyond"
 	sleep 2
 done
