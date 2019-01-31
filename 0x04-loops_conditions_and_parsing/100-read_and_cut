@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # display id, username, and home direcrtory path for user
-while read -e file
+while read file
 do
 	echo "$file" | cut -d ":" -f1,3,6
 done < "/etc/passwd"
