@@ -1,0 +1,18 @@
+total 64
+drwxrwxr-x 2 vagrant vagrant 4096 Sep  8 20:24 .
+drwxrwxr-x 6 vagrant vagrant 4096 Sep  8 17:44 ..
+-rwxrw-r-- 1 vagrant vagrant   32 Sep  8 17:51 0-hello_world
+-rwxrw-r-- 1 vagrant vagrant   29 Sep  8 17:56 1-confused_smiley
+-rwxrw-r-- 1 vagrant vagrant   29 Sep  8 17:55 1-confused_smiley~
+-rwxrw-r-- 1 vagrant vagrant   28 Sep  8 17:58 2-hellofile
+-rwxrw-r-- 1 vagrant vagrant   40 Sep  8 18:02 3-twofiles
+-rwxrw-r-- 1 vagrant vagrant   29 Sep  8 18:05 4-lastlines
+-rwxrw-r-- 1 vagrant vagrant   29 Sep  8 18:07 5-firstlines
+-rwxrw-r-- 1 vagrant vagrant   37 Sep  8 20:20 6-third_line
+-rwxrw-r-- 1 vagrant vagrant   28 Sep  8 20:19 6-third_line~
+-rwxrw-r-- 1 vagrant vagrant  109 Sep  8 20:21 7-file
+-rwxrw-r-- 1 vagrant vagrant   35 Sep  8 20:24 8-cwd_state
+-rw-rw-r-- 1 vagrant vagrant   17 Sep  8 20:22 \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
+-rw-rw-r-- 1 vagrant vagrant  744 Sep  8 20:15 iacata
+-rw-rw-r-- 1 vagrant vagrant    0 Sep  8 20:24 ls_cwd_content
+-rw-rw-r-- 1 vagrant vagrant 1050 Sep  8 17:47 README.md

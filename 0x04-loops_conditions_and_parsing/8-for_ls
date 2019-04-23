@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# display content of current directory excluding hidden files
-directory=$(ls)
-for files in $directory
-do
-	echo "$files" | cut -d "-" -f 2
-done

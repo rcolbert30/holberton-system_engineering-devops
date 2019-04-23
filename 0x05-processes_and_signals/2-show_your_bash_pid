@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#Bash script that displays line containing the bash word
-ps -aux -f | grep -w "bash"

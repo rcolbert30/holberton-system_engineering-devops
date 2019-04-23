@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#Bash script that displays:To infinity and beyond indefinitely sleep 2 in between eachiteration ,I am invincible!!! when receiving a SIGTERM signal
-counter=1
-while [ $counter ]
-do
-	echo "To Inifinity and beyond"
-	sleep 2
-	trap " echo 'I am invincible!!!'" 15
-done
