@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# hb 10 times
+i=0;
+while ((i < 10))
+do
+	echo "holberton School"
+	i=$i+1
+done
