@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# fizzbuzz
+
+for f in {1..100};
+do
+	if [ $((f % 5 )) -eq 0 ] && [ $(( f % 3 )) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $(( f % 5 )) -eq 0 ]
+	then
+		echo "Buzz"
+	elif [ $(( f % 3 )) -eq 0 ]
+	then
+		echo "Fizz"
+	else
+		echo "$f"
+	fi
+done
