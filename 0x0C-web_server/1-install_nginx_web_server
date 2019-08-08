@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configs new ubuntu machice w ngix
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo 'Holberton School' | sudo tee /usr/share/ngnix/html/index.html
+sudo service nqix start
