@@ -3,6 +3,5 @@
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
-ufw allow 'Nginx HTTP'
-echo 'Holberton School' | sudo tee /usr/share/ngnix/html/index.html
+echo 'Holberton School' > /usr/share/ngnix/html/index.html
 sudo service nqix start
