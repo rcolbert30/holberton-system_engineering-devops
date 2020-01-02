@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# makes mysql dump and accepts an argument
-sudo mysqldump -u root -p "$1" --opt --databases > backup.sql
-tar -czvf "$(date +%d-%m-%Y).tar.gz" backup.sql
