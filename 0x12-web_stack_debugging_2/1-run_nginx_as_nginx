@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# configures nginx user
+
+sudo chmod 744 /etc/nginx/nginx.conf
+
+sudo chown -R nginx:nginx /etc/nginx/nginx.conf
+
+sudo pkill -f apache2
+
+sudo sed -i 's/80/8080/g' /etc/nginx/sites-available/default
+
+sudo -u nginx bash -c 'service nginx restart'
