@@ -23,11 +23,11 @@ def todos(_id):
         for task in todo:
             task_dict = {
                 "task": task.get('title'),
-                "completed" : task.get('completed'),
-                "username" : name
+                "completed": task.get('completed'),
+                "username": name
             }
             tasks.append(task_dict)
-        data = {_id : tasks}
+        data = {_id: tasks}
         json.dump(data, USER_ID)
 if __name__ == "__main__":
     if argv[1].isdigit():
