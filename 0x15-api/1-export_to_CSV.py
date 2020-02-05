@@ -20,11 +20,6 @@ def todos(_id):
     tasks = len(todo)
     prog = len(progress)
 
-    print("Employee {} is done with tasks({}/{}):".format(name, prog, tasks))
-
-    for task in progress:
-        print("\t {}".format(task["title"]))
-
     with open('{}.csv'.format(_id), 'w', encoding='utf-8') as user_file:
         data = csv.writer(user_file, quoting=csv.QUOTE_ALL)
 
