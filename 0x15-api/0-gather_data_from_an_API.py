@@ -2,8 +2,8 @@
 ''' for a given employee id returns info about
     his/her TODO list progress
 '''
-from sys import argv
 from requests import get
+from sys import argv
 
 
 def todos(_id):
