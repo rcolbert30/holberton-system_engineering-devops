@@ -16,7 +16,7 @@ def todos(_id):
     progress = get("https://jsonplaceholder.typicode.com/todos",
                    params={'userId': _id, 'completed': 'true'}).json()
 
-    name = user[0].get('name')
+    name = user[0].get('username')
     tasks = len(todo)
     prog = len(progress)
 
