@@ -4,7 +4,7 @@
 import requests
 
 
-def recurse(subreddit, after='', hot_list=[]):
+def count_words(subreddit, word_list):
     url = 'https://api.reddit.com/r/{}/hot'.format(subreddit)
     headers = {'User-Agent': 'Hot Post Recursive Grab Info'}
     x = {'after': after}
