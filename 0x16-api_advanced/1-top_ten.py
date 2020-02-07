@@ -3,6 +3,7 @@
 
 import requests
 
+
 def top_ten(subreddit):
     url = 'https://api.reddit.com/r/{}/hot?limit=10'.format(subreddit)
     headers = {'User-Agent': 'Hot Post Info'}
@@ -13,8 +14,8 @@ def top_ten(subreddit):
         for title in top:
             print(title['data']['title'])
 
-     except BaseException:
-         print(None)
+    except BaseException:
+        print(None)
 
 
 if __name__ == '__main__':
